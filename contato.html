@@ -21,7 +21,8 @@
             font-family: 'Ubuntu', sans-serif;
         }
     </style>
-
+    <script src="js/index.js" defer></script>
+    <script src="js/contato.js" defer></script>
 </head>
 
 <body>
@@ -56,7 +57,7 @@
                     <input type="text" required placeholder="nome"><br>
                     <input type="email" required placeholder="e-mail">
                     <textarea>sua mensagem</textarea> <br>
-                    <button id='enviar'>Enviar</button>
+                    <button onclick="enviado()" id='enviar'>Enviar</button>
                 </form>
             </div>
 
@@ -93,7 +94,6 @@
 
         </div>
     </footer>
-    <script src="js/index.js"></script>
 </body>
 
 </html>
